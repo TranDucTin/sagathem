@@ -1,0 +1,198 @@
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.Line-4 {
+    width: 186px;
+    border-top: 1px solid #e03116;
+    height: 2px;
+}
+
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 50%;
+    display: flex;
+}
+
+.column1 {
+    width: 428px;
+}
+
+.The-Encompass-Platform {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.29px;
+    text-align: left;
+    color: #1f2c40;
+}
+
+.Drive,
+.Improve,
+.Leverage,
+.Enhance {
+    width: 273px;
+    height: 89px;
+    margin: 0 0 7px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: -0.19px;
+    text-align: left;
+    color: #1f2c40;
+}
+
+.Drive-p {
+    width: 225px;
+    height: 294.8px;
+    margin: 7px 0 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.14px;
+    text-align: left;
+    color: #666666;
+}
+
+.Improve-p {
+    width: 273px;
+    height: 248px;
+    margin: 7px 0 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.14px;
+    text-align: left;
+    color: #666666;
+}
+
+.Leverage-p {
+    width: 273px;
+    height: 245px;
+    margin: 7px 0 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.14px;
+    text-align: left;
+    color: #666666;
+}
+
+.Enhance-p {
+    width: 271px;
+    height: 249px;
+    margin: 7px 0 0 2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.14px;
+    text-align: left;
+    color: #666666;
+}
+
+
+/* Tablet 1024*/
+
+@media (max-width: 1024px) {
+    .grid {
+        width: 780px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .column-left,
+    .column1 {
+        width: 100%;
+    }
+    .column-right {
+        width: 100%;
+        margin-top: 52px;
+    }
+    .row1,
+    .row2 {
+        width: 50%;
+    }
+    .Drive-p {
+        height: 220px;
+        width: 76%;
+    }
+    .Improve {
+        height: 62px;
+    }
+    .Improve-p {
+        height: 220px;
+        width: 370px;
+    }
+    .Leverage {
+        width: 395px;
+    }
+    .Leverage-p {
+        width: 395px;
+        height: 194px;
+    }
+    .Enhance-p {
+        width: 395px;
+        height: 249px;
+    }
+}
+
+
+/* Tablet 768*/
+
+@media (max-width: 768px) {
+    .column-left {
+        width: 510px;
+        height: 169px;
+        line-height: 1.33;
+    }
+    .column-right {
+        flex-direction: column;
+        width: 510px;
+    }
+    .row {
+        width: 516px;
+    }
+    .Drive-p {
+        width: 510px;
+        height: 154px;
+        margin: 0;
+    }
+    .Leverage {
+        width: 510px;
+        height: 63px;
+    }
+    .Improve-p,
+    .Leverage-p,
+    .Enhance-p {
+        width: 510px;
+    }
+}
