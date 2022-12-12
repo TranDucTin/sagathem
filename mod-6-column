@@ -1,0 +1,40 @@
+@screen xl {
+    .container-6 {
+        @apply bg-gray-300;
+    }
+
+    .Align {
+        @apply ml-30 mr-70;
+    }
+
+    .Our-Open-column {
+        // @apply mt-81;
+    }
+
+    .header-column {
+        @apply pt-50 pl-50 pr-100;
+    }
+
+    .content-our-open-column {
+        @apply text-4xl font-bold ;
+    }
+
+    .content-our-open-1 {
+        @apply flex mt-21;
+    }
+
+    .content-our-open-p {
+        @apply flex-1; // 1em = 16px   
+
+        p {
+            @apply pr-25 pl-50 text-2xl font-light tracking-wide;
+        }
+    }
+
+    .content-our-open-image {
+        @apply flex-1;
+
+        img {
+            @apply pr-5 w-1/2 h-45;
+        }
+    }
